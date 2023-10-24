@@ -1,1 +1,2 @@
 # skin-issue-recognition
+The goal of this project is to determine what skin issue the patient has based on his/her symptoms. Relevant features are selected based on information gain. Based on those final features are extracted using LDA reduction. Prediction are performed firstly using hypothesis testing, a later on using neural network which performed better. Neural network was trained for 100 epochs using adam optimizer and binary crossentropy as loss function. Accuracy of 88.36 percent was achieved.
